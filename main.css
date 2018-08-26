@@ -24,13 +24,18 @@ max-width: 100%;
    padding: 0 5%;
 
  }
+ #wrapper2{
+   max-width: 1500px;
+   margin: 0 auto;
+   padding: 0 5%;
 
+ }
 
 
  a {
-   color: #6ab47b;
+   color: #6aa5b4;
+}
 
- }
 
  h3 {
      margin: 0 0 1em 0;
@@ -125,29 +130,23 @@ FOOTER
  }
 
 /*************************************
-PAGE:
+Image adjustments
 **************************************/
-.mydiv {background: lightblue; width:250px; height: 250px;}
 
 .myimage {
     float:left;
-    width:150px;
-    height:175px;
+    width:300px;
+    height:300px;
     margin:20px;
     border-radius: 20px;
 }
 
-
-
-
- /*************************************
-PAGE: ABOUT
-**************************************/
-.profile-photo {
-    display: block;
-    max-width: 400px;
-    margin: 0 auto 30px;
-    border-radius: 5px;
+.myimage2 {
+    float:left;
+    width:600px;
+    height:350px;
+    margin:20px;
+    border-radius: 20px;
 }
 
 /*************************************
@@ -155,21 +154,21 @@ COLORS
 **************************************/
 
 
- /* green header*/
+ /* blue header*/
   header {
-   background: #6ab47b;
-   border-color: #599a68;
+   background: #6aa5b4;
+   border-color: #6aa5b4;
  }
 
  /* logo text*/
 
  h1,h2  {
-    color: #32673f;
+    color: #6aa5b4;
 }
 
 /* nav background on mobile devices*/
 nav {
-   background: #599a6b;
+   background: #6aa5b4;
 }
 
 nav a, nav a:visited {
@@ -178,7 +177,7 @@ nav a, nav a:visited {
 
 /* selected nav link color*/
 nav a.selected, nav a:hover {
-  color: #32673f;
+  color: #6a88b4;
 }
 /* site body*/
 body {
